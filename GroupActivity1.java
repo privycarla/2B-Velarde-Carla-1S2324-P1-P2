@@ -1,3 +1,13 @@
+/*
+Author(s):
+Carla Velarde
+Angelica Joy Coyoca
+Judy Ann Diaga
+John Crisvell Punay
+*/
+
+
+
 public class Group {
 
     public static void main(String[] args) {
