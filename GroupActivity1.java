@@ -8,7 +8,7 @@ John Crisvell Punay
 
 
 
-public class Group {
+public class Group1 {
 
     public static void main(String[] args) {
         
