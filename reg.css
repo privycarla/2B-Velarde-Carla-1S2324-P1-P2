@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',  sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: Black;
+}
+.form-box {
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background: mistyrose;
+    padding: 50px 70px 70px;
+    text-align: center;
+}
+.form-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: indianred;
+    position: relative  ;
+}
+.form-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: indianred;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.input-field{
+    background: beige;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden; 
+}
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-field button{
+    flex-basis: 48%;
+    background: darksalmon;
+    color: antiquewhite;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+  
+}
+.btn-field a{
+   text-decoration: none;
+   color: black;
+}
+/* .btn-field a:hover{
+    text-decoration: none;
+    background: darksalmon;
+
+    color: black;
+ } */
+
+
+
+.btn-field button.disable{
+    background:azure;
+    color: #555;
+
+}
+.disable  button:hover{
+    background-color: darksalmon;
+}
